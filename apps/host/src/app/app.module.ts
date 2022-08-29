@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
+import { AngularFireModule } from './angular-fire.module';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
+    AngularFireModule,
     RouterModule.forRoot(
       [
         {
